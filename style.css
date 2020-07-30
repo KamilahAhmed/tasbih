@@ -14,14 +14,10 @@
     margin: 200px auto;
 }
 
-.landingbox{
-    display: block;
-}
-
 h1{
     font-size: 4rem;
     font-weight: 400;
-    font-family: "Abril Fatface";
+    font-family: "Abril Fatface", sans-serif;
 }
 
 h2{
@@ -33,7 +29,7 @@ h2{
     display: none;
 }
 
-#value {
+#value{
     font-size: 6rem;
     font-weight: 300;
 }
@@ -44,4 +40,8 @@ button{
     background-color: snow;
     padding: 0.5rem 1rem;
     margin: 10px 5px;
+}
+
+button:hover{
+    background-color: #fff;
 }
